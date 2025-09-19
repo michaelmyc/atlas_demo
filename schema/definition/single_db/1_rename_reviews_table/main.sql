@@ -1,0 +1,14 @@
+-- atlas:import tables/atlas_schema_revisions.sql
+-- atlas:import tables/users.sql
+-- atlas:import tables/categories.sql
+-- atlas:import tables/products.sql
+-- atlas:import tables/orders.sql
+-- atlas:import tables/order_items.sql
+-- atlas:import triggers/order_items_update_stock_after_order_item.sql
+-- atlas:import triggers/order_items_update_stock_on_order_item_update.sql
+-- atlas:import tables/audit_log.sql
+-- atlas:import tables/attributes.sql
+-- atlas:import tables/product_attributes.sql
+-- atlas:import tables/product_reviews.sql
+-- atlas:import views/order_summary.sql
+

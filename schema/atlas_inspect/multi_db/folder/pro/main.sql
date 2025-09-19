@@ -1,0 +1,14 @@
+-- atlas:import schemas/example/example.sql
+-- atlas:import schemas/example/tables/users.sql
+-- atlas:import schemas/example/tables/orders.sql
+-- atlas:import schemas/example/tables/categories.sql
+-- atlas:import schemas/example/tables/products.sql
+-- atlas:import schemas/example/tables/order_items.sql
+-- atlas:import schemas/example/triggers/order_items_update_stock_after_order_item.sql
+-- atlas:import schemas/example/triggers/order_items_update_stock_on_order_item_update.sql
+-- atlas:import schemas/example/tables/audit_log.sql
+-- atlas:import schemas/example/tables/attributes.sql
+-- atlas:import schemas/example/tables/product_attributes.sql
+-- atlas:import schemas/example/tables/reviews.sql
+-- atlas:import schemas/example/views/order_summary.sql
+

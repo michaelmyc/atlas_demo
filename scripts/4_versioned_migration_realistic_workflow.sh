@@ -70,7 +70,7 @@ atlas schema inspect --env single_db_dev --format "{{ sql . | split | write \"$S
 echo -en "${GREEN}第5步：自动化创建schema迁移DDL${NC}"; read
 
 # 生成迁移脚本，比较开发环境与目标schema的差异
-atlas migrate diff rename_reviews_table --env single_db_dev --to "file://$SCHEMA_SAVE_LOCATION"
+atlas migrate diff rename_reviews_table --env single_db --to "file://$SCHEMA_SAVE_LOCATION"
 
 # 第6步：审查生成的迁移DDL并执行lint检查
 # 确保生成的迁移脚本符合规范且不会引入问题
